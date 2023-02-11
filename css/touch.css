@@ -1,0 +1,346 @@
+@charset "utf-8";
+
+input,
+textarea,
+button,
+select,
+a, 
+.touch #toggle-menu,
+.touch .menu-overlay {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.touch .container {
+  width: 100%;
+}
+.touch .page-content,
+.touch section .container {
+  width: auto;
+  max-width: 960px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.touch .page-template-default .page-content {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.touch .row {
+  margin-bottom: 0px;
+}
+.touch #content {
+  margin-top: 60px;
+}
+.touch #main {
+  margin-bottom: -60px;
+}
+.touch #main:after,
+.touch #header:before,
+.touch #footer {
+  height: 60px;
+}
+.touch [class*='template-brand'] #content {
+  margin-top: 60px;
+}
+.touch [class*='template-brand'] #header {
+  height: 60px;
+}
+.touch .hlogo {
+  width: 60px;
+  height: 60px;
+  background-size: 75%;
+  background-position: center center;
+}
+.touch [class*='template-brand'] .hlogo {
+  display: none;
+}
+.touch [class*='template-brand'] #header .home {
+  height: 100%;
+}
+.touch [class*='template-brand'] #header .tmark {
+  display: inline-block;
+  height: 100%;
+  padding-right: 12px;
+}
+.touch [class*='template-brand'] #header .tmark:after {
+  position: relative;
+  top: -1px;
+  left: -2px;
+  font: 33px/1 'DB Helvethaica X Bd';
+}
+.touch [class*='template-brand'] #header .tmark svg {
+  margin-top: 16px;
+  margin-left: 12px;
+  height: 22px;
+}
+
+.touch .template-brand-parich #header:before {
+  background-color: #ff801e;
+}
+.touch .template-brand-parich #toggle-menu {
+  color: #000;
+}
+.touch .template-brand-parich #toggle-menu .arrow,
+.touch .template-brand-parich #toggle-menu .arrow:before {
+  background-color: #fff;
+}
+.touch .template-brand-parich #header .tmark .pr {
+  fill: #fff;
+}
+
+.touch .template-brand-nitro #header:before {
+  background-color: #0092ca;
+}
+.touch .template-brand-nitro #toggle-menu {
+  color: #000;
+}
+.touch .template-brand-nitro #toggle-menu .arrow,
+.touch .template-brand-nitro #toggle-menu .arrow:before {
+  background-color: #ffe800;
+}
+.touch .template-brand-nitro #header .tmark .pr {
+  fill: #000;
+}
+.touch .template-brand-nitro #header .tmark:after {
+  content: 'NITRO';
+  color: #ffe800;
+}
+
+.touch .template-brand-superblack #header:before {
+  background-color: #000;
+}
+.touch .template-brand-superblack #toggle-menu {
+  color: #fff;
+}
+.touch .template-brand-superblack #toggle-menu .arrow,
+.touch .template-brand-superblack #toggle-menu .arrow:before {
+  background-color: #e75200;
+}
+.touch .template-brand-superblack #header .tmark .pr {
+  fill: #e75200;
+}
+.touch .template-brand-superblack #header .tmark:after {
+  content: 'SUPERBLACK';
+  color: #fff;
+}
+
+.touch .template-brand-bone #header:before {
+  background-color: #c3291e;
+}
+.touch .template-brand-bone #toggle-menu {
+  color: #000;
+}
+.touch .template-brand-bone #toggle-menu .arrow,
+.touch .template-brand-bone #toggle-menu .arrow:before {
+  background-color: #fff;
+}
+.touch .template-brand-bone #header .tmark .pr {
+  fill: #000;
+}
+.touch .template-brand-bone #header .tmark:after {
+  content: 'BONE';
+  color: #fff;
+}
+
+.touch .template-brand-pagro #header:before {
+  background-color: #258F44;
+}
+.touch .template-brand-pagro #toggle-menu {
+  color: #fff;
+}
+.touch .template-brand-pagro #toggle-menu .arrow,
+.touch .template-brand-pagro #toggle-menu .arrow:before {
+  background-color: #92b532;
+}
+.touch .template-brand-pagro #header .tmark .pr {
+  fill: #fff;
+}
+.touch .template-brand-pagro #header .tmark:after {
+  content: 'PAGRO';
+  color: #92b532;
+}
+.touch #toggle-menu {
+  display: block;
+}
+.touch #main-menu {
+  position: fixed;
+  width: 320px;
+  height: 100%;
+  background: #eee;
+  right: 0px;
+  z-index: 1000;
+  margin-right: -320px;
+}
+.touch #main-menu .nav-main {
+  margin-top: 50px;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+.touch #main-menu .top-bar {
+  position: relative;
+  margin: 0px;
+}
+.touch #main-menu .nav-main > ul > li,
+.touch #main-menu .nav-top > ul > li {
+  display: block;
+  width: 100%;
+}
+.touch #main-menu .nav-main > ul > li > a {
+  padding-top: 18px;
+}
+.touch #main-menu .nav-top {
+  float: left;
+}
+.touch #main-menu .nav-top > ul > li {
+  margin: 0px;
+}
+.touch #main-menu .nav-top > ul > li:last-child {
+  margin-bottom: 20px;
+}
+.touch #main-menu .nav-top li a {
+  padding: 12px;
+  font-size: 22px;
+}
+.touch #main-menu nav > ul > li.current-page-ancestor,
+.touch #main-menu nav > ul > li.current-page-parent {
+  background-color: #fff;
+}
+.touch #main-menu .sub-menu li.current-menu-item a,
+.touch #main-menu .sub-menu li.current_page_item a {
+  color: #fff !important;
+}
+.touch #main-menu .sub-menu {
+  width: 100%;
+  box-shadow: none;
+  display: block !important;
+  top: 0px;
+}
+.touch #main-menu .sub-menu,
+.touch #main-menu li.brands .sub-menu {
+  position: relative;
+}
+.touch #main-menu li.brands .sub-menu {
+  position: relative;
+  left: 0px;
+  margin: 0px;
+  background: #000;
+}
+.touch #main-menu li.brands .sub-menu > li {
+  display: block;
+  float: none;
+  margin: 0px;
+}
+.touch #main-menu li.brands .sub-menu > li a:before {
+  display: none;
+}
+.touch #main-menu li.brands .sub-menu > li.menu-item-parich a {
+  color: #ff801e !important;
+}
+.touch #main-menu li.brands .sub-menu > li.menu-item-nitro a {
+  color: #ffe800 !important;
+}
+.touch #main-menu li.brands .sub-menu > li.menu-item-superblack a {
+  color: #666 !important;
+}
+.touch #main-menu li.brands .sub-menu > li.menu-item-bone a {
+  color: #c3291e !important;
+}
+.touch #main-menu li.brands .sub-menu > li.menu-item-pagro a {
+  color: #92b532 !important;
+}
+.touch #main-menu .fbicon {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  margin: 0;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+.touch #main-menu .fbicon i {
+  font-size: 32px;
+  line-height: 38px;
+}
+.touch #main-menu .prchannel {
+  display: block;
+  position: absolute;
+  top: -6px;
+  right: 50px;
+  margin: 0px;
+}
+.touch #main-menu #qtranslate-chooser,
+.touch [class*='template-brand'] #main-menu #qtranslate-chooser {
+  position: absolute;
+  top: 0px;
+  margin-left: 10px;
+  height: 32px;
+  background: #fff;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+}
+.touch #main-menu #qtranslate-chooser li,
+.touch [class*='template-brand'] #main-menu #qtranslate-chooser li { 
+  height: 26px;
+  width: 26px;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  border-radius: 13px;
+   margin: 3px;
+}
+.touch #main-menu #qtranslate-chooser li span,
+[class*='template-brand'] #main-menu #qtranslate-chooser li span {
+  padding: 6px;
+}
+.touch [class*='template-brand'] #side-nav {
+  display: none;
+}
+.touch #header {
+  position: fixed;
+  padding: 0;
+/*   width: 100%;
+  height: 100%; */
+  z-index: 1;
+}
+.touch #header:before {
+  content: '';
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  background: #fff;
+}
+.touch #header .hlogo {
+  padding: 0;
+}
+.touch #footer .slogan {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.touch #footer .copyright:before {
+  display: none;
+}
+.touch #footer .copyright {
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+
+.touch #main-menu {
+  width: 320px;
+  margin-right: -320px;
+}
+
+}
+
+@media only screen and (max-width: 650px) {
+
+.touch #main-menu {
+  width: 240px;
+  margin-right: -240px;
+}
+
+}

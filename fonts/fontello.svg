@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2014 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="zoom-in" unicode="&#xe802;" d="m571 404v-36q0-7-5-13t-12-5h-125v-125q0-7-6-13t-12-5h-36q-7 0-13 5t-5 13v125h-125q-7 0-12 5t-6 13v36q0 7 6 12t12 5h125v125q0 8 5 13t13 5h36q7 0 12-5t6-13v-125h125q7 0 12-5t5-12z m72-18q0 103-74 176t-176 74-177-74-73-176 73-177 177-73 176 73 74 177z m286-465q0-29-21-50t-51-21q-30 0-50 21l-191 191q-100-69-223-69-80 0-153 31t-125 84-84 125-31 153 31 152 84 126 125 84 153 31 152-31 126-84 84-126 31-152q0-123-69-223l191-191q21-21 21-51z" horiz-adv-x="928.6" />
+<glyph glyph-name="mail" unicode="&#xe806;" d="m30 586q-32 18-28 40 2 14 26 14l846 0q38 0 20-32-8-14-24-22-14-6-192-102t-182-98q-16-10-46-10-28 0-46 10-4 2-182 98t-192 102z m850-100q20 10 20-10l0-368q0-16-17-32t-33-16l-800 0q-16 0-33 16t-17 32l0 368q0 20 20 10l384-200q18-10 46-10t46 10z" horiz-adv-x="900" />
+<glyph glyph-name="facebook-1" unicode="&#xe808;" d="m0 350h97v-469h193v469h130l17 161h-146v81q0 18 2 28t8 20 19 13 35 4h81v161h-129q-112 0-161-53t-49-157v-97h-97v-161z" horiz-adv-x="437.5" />
+<glyph glyph-name="cancel" unicode="&#xe805;" d="m0 71l279 279-279 279 221 221 279-279 279 279 221-221-279-279 279-279-221-221-279 279-279-279z" horiz-adv-x="1000" />
+<glyph glyph-name="down-open" unicode="&#xe801;" d="m0 526l148 148 352-351 352 351 148-148-352-352-148-148-148 148z" horiz-adv-x="1000" />
+<glyph glyph-name="play" unicode="&#xe803;" d="m0-25l0 750 625-375z" horiz-adv-x="625" />
+<glyph glyph-name="pause" unicode="&#xe804;" d="m0-25l0 750 313 0 0-750-313 0z m438 0l0 750 312 0 0-750-312 0z" horiz-adv-x="750" />
+<glyph glyph-name="ok" unicode="&#xe800;" d="m1179 778q-250-222-600-750l-115-179q-144 180-464 500l107 107 286-250q150 150 279 272t206 187 131 111 77 59l21 14q4 0 11-2t26-19 35-50z" horiz-adv-x="1179" />
+</font>
+</defs>
+</svg>

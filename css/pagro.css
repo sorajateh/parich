@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+/* Pagro */
+
+.page-template-brand-pagro {
+  background-color: #258F44;
+}
+.page-template-brand-pagro em,
+.page-template-brand-pagro ul.checked li:before {
+  color: #ff801e !important;
+}
+.page-template-brand-pagro h1 em {
+  font-family: 'DB Helvethaica X BdIt';
+  color: #fff !important;
+}
+.page-template-brand-pagro ul.checked li em {
+  color: #000 !important;
+}
+.page-template-brand-pagro .seg-title em {
+  color: #92b532 !important;
+}
+.page-template-brand-pagro [class^='granular-circ'] a {
+  border-color: #000;
+}
+.page-template-brand-pagro [class^='table-'] thead td,
+.page-template-brand-pagro [class^='caption'] {
+  color: #fff !important;
+}
+.page-template-brand-pagro [class^='table-'] thead td {
+  background-color: #000 !important;
+}
+.page-template-brand-pagro ul.raw li {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.page-template-brand-pagro ul.raw li:last-child {
+  margin-right: 0px;
+}
+.page-template-brand-pagro ul.raw li .caption {
+  display: block;
+  position: relative;
+  top: 10px;
+  height: 30px;
+  text-align: center;
+}
+.page-template-brand-pagro #intro .bags {
+  float: right;
+}
+.page-template-brand-pagro #intro .stamp {
+  position: absolute;
+  top: -100px;
+  right: 60px;
+}
+.page-template-brand-pagro #intro .seg-body {
+  background: url('../images/pagro-gradient-bg.png') repeat-x;
+  background-position: 0 290px;
+  position: relative;
+  z-index: 3000;
+  overflow: hidden;
+  margin-top: -300px;
+}
+.page-template-brand-pagro #intro .seg-body:before, 
+.page-template-brand-pagro #intro .seg-body:after {
+  content:'';
+  display: block;
+  position: absolute;
+}
+.page-template-brand-pagro #intro .seg-body:before {
+  width: 680px;
+  height: 290px;
+  left: -120px;
+  top: 0px;
+  background: url('../images/pagro-curve-l.png') no-repeat;
+}
+.page-template-brand-pagro #intro .seg-body:after {
+  width: 570px;
+  height: 290px;
+  right: -100px;
+  top: 0px;
+  background: url('../images/pagro-curve-r.png') no-repeat;
+  z-index:-1;
+}
+.page-template-brand-pagro #intro .seg-body .container {
+  margin-top: 280px;
+}
+.page-template-brand-pagro .seg-bg-outro {
+  height: 300px;
+}

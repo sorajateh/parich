@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/* Bone */
+
+.page-template-brand-bone {
+  background: url('../images/bone-texture.gif');
+}
+.page-template-brand-bone h1 em {
+  font-family: 'DB Helvethaica X Med';
+  color: #000 !important;
+}
+.page-template-brand-bone .container {
+  z-index: 1;
+}
+.page-template-brand-bone em,
+.page-template-brand-bone ul.checked li:before,
+.page-template-brand-bone [class^='caption']:before {
+  color: #c3291e !important;
+}
+.page-template-brand-bone [class^='table-'] thead td,
+.page-template-brand-bone [class^='granular-circ'] {
+  color: #fff !important;
+}
+.page-template-brand-bone [class^='table-'] thead td {
+  background-color: #000 !important;
+}
+.page-template-brand-bone [class^='granular-circ'] a {
+  border-color: #000;
+}
+.page-template-brand-bone .sun {
+  padding: 0px !important;
+  z-index: 0;
+}
+.page-template-brand-bone .sun:before {
+  content:'';
+  display: block;
+  width: 620px;
+  height: 620px;
+  position: absolute;
+  z-index: 0;
+  top: 0px;
+  left: -80px;
+  background: url('../images/bone-sun.png') no-repeat;
+}
+.page-template-brand-bone #extrusion .factory img {
+  margin-bottom: 5px;
+}
+.page-template-brand-bone #animal-bone-profit [class^='crop-circ'] {
+  margin-bottom: 20px;
+}
+.page-template-brand-bone #animal-bone-profit [class^='crop-circ'].align_r {
+  margin-top: -80px;
+}

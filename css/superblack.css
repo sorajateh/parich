@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+/* Super Black */
+
+.page-template-brand-superblack {
+/*   background-color: #000; */
+}
+.page-template-brand-superblack,
+.page-template-brand-superblack p,
+.page-template-brand-superblack .prchannel span,
+.page-template-brand-superblack [class^='table-'] thead td {
+/*   color: #fff !important; */
+}
+.page-template-brand-superblack em,
+.page-template-brand-superblack ul.checked li:before,
+.page-template-brand-superblack [class^='table-'] thead td,
+.page-template-brand-superblack .circ,
+.page-template-brand-superblack [class^='table-'],
+.page-template-brand-superblack [class^='table-'] td,
+.page-template-brand-superblack [class^='table-'] tr {
+/*   border-color: #e75200 !important; */
+}
+.page-template-brand-superblack .container.spot {
+  height: 100%;
+}
+.page-template-brand-superblack .spot,
+.page-template-brand-superblack #productive .container.hero {
+  position: relative;
+  padding: 0px !important;
+  z-index: 10;
+}
+.page-template-brand-superblack .spot:before  {
+  content:'';
+  display: block;
+  width: 1400px;
+  height: 1400px;
+  position: absolute;
+  background: #005d93; /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMDVkOTMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1OSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1OSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvcmFkaWFsR3JhZGllbnQ+CiAgPHJlY3QgeD0iLTUwIiB5PSItNTAiIHdpZHRoPSIxMDEiIGhlaWdodD0iMTAxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+  background: -moz-radial-gradient(center, ellipse cover,  #005d93 0%, #000000 59%, #000000 59%); /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#005d93), color-stop(59%,#000000), color-stop(59%,#000000)); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover,  #005d93 0%,#000000 59%,#000000 59%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover,  #005d93 0%,#000000 59%,#000000 59%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover,  #005d93 0%,#000000 59%,#000000 59%); /* IE10+ */
+  background: radial-gradient(ellipse at center,  #005d93 0%,#000000 59%,#000000 59%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005d93', endColorstr='#000000',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+}
+
+.page-template-brand-superblack .undercon { 
+  text-align: center;
+  position: relative;
+  top: 250px;
+  z-index: 800;
+}
+.page-template-brand-superblack .undercon .icon-attn { 
+  margin-bottom: 16px;
+}
+.page-template-brand-superblack .undercon .th {
+  color: #cc6633;
+  margin-bottom: 0px;
+}
+.page-template-brand-superblack .undercon .en {
+  text-transform: none;
+}
+
+.page-template-brand-superblack #intro .spot:before {
+  top: -800px;
+  left: -800px;
+}
+.page-template-brand-superblack #intro .seg-bg {
+  position: relative;
+  height: 600px;
+  z-index: 300;
+}
+.page-template-brand-superblack #intro .seg-bg .bg {
+  width: 100%;
+  height: 100%;
+}
+.page-template-brand-superblack #intro .seg-bg .container {
+  position: relative;
+  top: -100%;
+  z-index: 200;
+}
+.page-template-brand-superblack #intro .seg-bg h1,
+.page-template-brand-superblack #intro .seg-bg h2 {
+  margin: 0px;
+  text-indent: -9999px;
+  position: absolute;
+}
+.page-template-brand-superblack #intro .seg-bg h1 {
+  width: 480px;
+  height: 188px;
+  background: url('../images/heading-superblack10.png') no-repeat;
+  top: 80px;
+  right: 0px;
+}
+.page-template-brand-superblack #intro .seg-bg h2 {
+  width: 595px;
+  height: 303px;
+  background: url('../images/heading-black-hero.png') no-repeat;
+  bottom: 0px;
+  right: 0px;
+}
+.page-template-brand-superblack #black-power .spot:before {
+  top: -800px;
+  right: -600px;
+}
+.page-template-brand-superblack #productive {
+  background: #000;
+}
+.page-template-brand-superblack #productive p#qc {
+  margin-top: 30px;
+}
+.page-template-brand-superblack #productive
+.page-template-brand-superblack #productive .container:first-child {
+  z-index: 100;
+}
+.page-template-brand-superblack #productive .container.hero:before {
+  content: '';
+  display: block;
+  width: 640px;
+  height: 640px;
+  background: url('../images/Black_Hero_02.jpg') no-repeat;
+  position: absolute;
+  top: -860px;
+  left: -100px;
+  z-index: 0;
+}
+.page-template-brand-superblack #liquid h1 {
+  width: 380px;
+  height: 66px;
+  text-indent: -9999px;
+  background: url('../images/heading-parich-superblack.png') no-repeat;
+}
+.page-template-brand-superblack #liquid .hero {
+  background: url('../images/Black_Hero_03.jpg') no-repeat;
+  background-position: 20% -80px;
+}
+.page-template-brand-superblack #liquid .seg-bg-intro {
+  height: 320px;
+}
+.page-template-brand-superblack #liquid .seg-bg-outro {
+  height: 240px;
+}
+.page-template-brand-superblack #liquid .product-shot {
+  height: 540px;
+  position: relative;
+  margin-top: -200px;
+  margin-left: 60px;
+}

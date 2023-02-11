@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+/* PARICH */
+
+/* .page-template-brand-parich,
+.page-template-brand-parich [class^='table-'] thead { */
+.formula-tag {
+  background-color: #ff801e;
+}
+
+/* .page-template-brand-parich .negative { */
+.formula-tag {
+  color: #000;
+/*   background-color: #fff; */
+}
+.page-template-brand-parich em,
+.page-template-brand-parich .prchannel span,
+.page-template-brand-parich [class^='table-'] thead,
+.page-template-brand-parich ul.checked li:before,
+.page-template-brand-parich [class^='caption'],
+.page-template-brand-parich #fert-list ul.chevron li,
+.page-template-brand-parich #fert-list ul.chevron li * {
+/*   color: #fff !important; */
+}
+.page-template-brand-parich .negative em,
+.page-template-brand-parich .seg-title em,
+.page-template-brand-parich .negative ul.checked li:before,
+.page-template-brand-parich .negative [class^='caption'] {
+  color: #ff801e !important;
+}
+.page-template-brand-parich .negative [class^='granular-circ'] a {
+  border-color: #000;
+}
+.page-template-brand-parich [class^='table-'] {
+  background: rgba(255,255,255,0.8) url('../images/bg-white80.png');
+}
+.page-template-brand-parich #intro .elem-wh-mix {
+  position: absolute;
+  right: 0px;
+  top: 20px;
+}
+.page-template-brand-parich #intro .seg-body {
+  height: 240px;
+}
+.page-template-brand-parich #fert-list .seg-title i {
+  font-size: 100px;
+  line-height: 0.5;
+  margin-left: -10px;
+}
+.page-template-brand-parich #fert-list .seg-title span {
+  position: relative;
+  top: -10px;
+}
+.page-template-brand-parich #fert-list ul.chevron li {
+  font: 24px/1 'DB Helvethaica X Bd';
+}
+.page-template-brand-parich #fert-list ul.chevron li a {
+  display: inline-block;
+}
+.page-template-brand-parich #pr46-0-0 {
+  padding-top: 12px;
+}
+.page-template-brand-parich #pr21-0-0 .elem-wh-mix {
+  position: absolute;
+  right: -140px;
+  bottom: -40px;
+}
+.page-template-brand-parich #pr21-0-0 .elem-wh-net {
+  position: absolute;
+  left: -360px;
+  top: 380px;
+}
+.page-template-brand-parich #nitrogen .seg-bg {
+  margin-top: -440px;
+}
+.page-template-brand-parich #nitrogen-more .seg-bg {
+  margin-bottom: -440px;
+}
+.page-template-brand-parich #nitrogen-more .seg-body .container {
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #fff;
+}
+.page-template-brand-parich #chemical h2 i.icon-chemical,
+.page-template-brand-parich #organic h2 i.icon-organic {
+  font-size: 120px;
+  margin-left: -12px;
+}
+.page-template-brand-parich #no-chloride .stamp {
+  position: absolute;
+  top: 440px;
+  right: 40px;
+  z-index: 9000;
+}
+.page-template-brand-parich #mop,
+.page-template-brand-parich #sop,
+.page-template-brand-parich #comp-9s,
+.page-template-brand-parich #comp-15s {
+  padding-top: 12px;
+}
